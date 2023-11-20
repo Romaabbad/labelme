@@ -16,11 +16,11 @@ __appname__ = "labelme"
 __version__ = "5.3.1"
 
 QT4 = QT_VERSION[0] == "4"
-QT5 = QT_VERSION[0] == "5"
+QT5 = QT_VERSION[0] == "6"
 del QT_VERSION
 
 PY2 = sys.version[0] == "2"
-PY3 = sys.version[0] == "3"
+PY3 = sys.version[0] == "5"
 del sys
 
 from labelme.label_file import LabelFile
